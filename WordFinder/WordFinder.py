@@ -1,7 +1,6 @@
 import os
 import fnmatch
 from colorama import Fore, Style
-from tabulate import tabulate
 
 def search_word_in_files(root_dir, word_to_search):
     replacement_word = None
